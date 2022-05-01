@@ -13,6 +13,7 @@ class SpringJenkinsDockeroneApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsDockeroneApplicationTests.class);
 	@Test
 	void contextLoads() {
+		logger.info("Inside contextLoads() Method od Test class");
 		assertEquals(true,true);
 	}
 

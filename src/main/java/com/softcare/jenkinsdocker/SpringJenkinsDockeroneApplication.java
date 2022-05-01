@@ -15,6 +15,7 @@ public class SpringJenkinsDockeroneApplication {
 
     @GetMapping
     public String run() {
+        logger.info("Inside Run Method Of Main Class");
         return "Running Jenkins With Docker !!!";
     }
 
